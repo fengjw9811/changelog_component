@@ -1,0 +1,16 @@
+.action-1 {
+    color:#5f6368
+}
+.action-2 {
+    color:#5f6368;
+    display:relative;
+    top:20px
+}
+.arrow-top {
+    display:inline-block;
+    transform:rotate(-90deg)
+}
+.arrow-bottom {
+    display:inline-block;
+    transform:rotate(90deg)
+}
