@@ -6,11 +6,11 @@
     display:relative;
     top:20px
 }
-.arrow-top {
+.arrow-bottom {
     display:inline-block;
     transform:rotate(-90deg)
 }
-.arrow-bottom {
+.arrow-top {
     display:inline-block;
     transform:rotate(90deg)
 }

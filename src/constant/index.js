@@ -3,7 +3,10 @@ const message = [
         id: 0,
         author: 'Luigi Toscano',
         action: 'Added to reviewer: ',
-        reviewer: 'Alfredo Garia',
+        reviewer: {
+            name: 'Alfredo Garia',
+            website: 'https://review.opendev.org/q/owner:alfrgarc%2540redhat.com'
+        },
         date: 'Nov 30, 2020 18:24 ',
         canHidden: true
     },
@@ -18,7 +21,10 @@ const message = [
         id: 2,
         author: 'Zuul',
         action: 'Added to reviewer: ',
-        reviewer: 'Zuul',
+        reviewer: {
+            name: 'Zuul',
+            website: 'https://review.opendev.org/q/owner:zuul'
+        },
         date: 'Patchset 1|Nov 30, 2020 21:55 ',
         canHidden: false
     },
@@ -40,7 +46,10 @@ const message = [
         id: 4,
         author: 'Sergii Golovatiuk',
         action: 'Added to reviewer: ',
-        reviewer: 'Sergii Golovatiuk',
+        reviewer: {
+            name: 'Sergii Golovatiuk',
+            website: 'https://review.opendev.org/q/owner:sgolovat%2540redhat.com'
+        },
         date: 'Patchset 1|Dec 01, 2020 07:15 ',
         canHidden: false
     },
